@@ -1,10 +1,17 @@
-# Internship-Project-b23cn122-
+Internship_Project ----- front end
+projectserver ---- Backend
+project---- mysql database
+Public ---- Images
+App.js --- file to run
+
+
+ Internship-Project-b23cn122-
 **Indian Frontline Assistance (IFA)** is a digital platform built to support Indian soldiers and veterans by providing services like retirement, leave, medical, and job applications, along with sections on eliminations, CSD, martyrs, medals, press updates, and completed army operations.
 
  How to run the project:
 
 1) import the Main_Project.js in the App.js file
-2) 
+
  2)In cmd type 'C:\MyApplications\client npm start' and run
 
  How to run the server:
