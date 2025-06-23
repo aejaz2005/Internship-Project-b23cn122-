@@ -1,0 +1,532 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #0f1e2b, #1f3a5a);
+  padding: 8px 16px;
+}
+
+.armylogo, .defencelogo {
+  height: 160px;
+  width: 160px;
+  background-size: cover;
+  background-position: left;
+  background-image: url("./logobg.png");
+  margin: 0;
+}
+.operation {
+  width: 100vw;
+  min-height: 200vh;
+  background-image: url("./operationbg.jpg");
+  background-size: 120% 160%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+.video-wrapper {
+  min-height: 100vh;
+  background-color: rgb(2, 44, 66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.video-grid iframe {
+  width: 100%;
+  height: 315px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.operationul {
+  list-style: none;
+  padding: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(103, 114, 117); 
+  border-radius: 16px;
+  max-width: 90%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.headbg {
+  flex-grow: 1;
+  text-align: center;
+  background-image: url('./bff.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.header {
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 6px black;
+}
+
+.headerDesc {
+  font-weight: bold;
+  font-size: 38px;
+  text-shadow: 4px 4px 4px rgb(23, 11, 11);
+  color: azure;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  margin: 0;
+  
+}
+
+.Desc {
+  color: white;
+  text-align: center;
+  background-color: rgb(23, 44, 66);
+  margin: 0;
+  padding: 4px 0;
+}
+
+.menuP {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  padding: 4px;
+  justify-content: center;
+  background-image: linear-gradient(90deg, rgb(2, 0, 36), rgb(9, 9, 121), rgb(0, 212, 255));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menuP > div {
+  font-size: 28px;
+  color: rgb(236, 234, 232);
+  padding: 10px 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.menuP > div:hover {
+  background-color: rgb(7, 126, 181);
+  border: solid 2px;
+}
+
+.submenuP {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: rgb(10, 82, 118);
+  font-size: 14px;
+  min-width: 200px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+  padding: 6px 0;
+}
+
+.menuP > div:hover .submenuP {
+  display: block;
+  background: linear-gradient(90deg, rgb(2, 0, 36), rgb(9, 9, 121), rgb(0, 212, 255));
+}
+
+.csdheader-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(23, 44, 66);
+  padding: 10px 20px;
+}
+
+.csdheadbg {
+  flex-grow: 1;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px;
+}
+
+.csdheader {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 3px 6px black;
+}
+
+.csdarmylogo {
+  height: 160px;
+  width: 160px;
+  background-size: cover;
+  background-position: left;
+  background-image: url("./csd.jpg");
+  margin: 0;
+}
+
+.terror-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgb(23, 44, 66);
+  margin-top: 20px;
+}
+
+.terror-table th, .terror-table td {
+  padding: 12px;
+  border: 1px solid #333;
+  text-align: left;
+  color: white;
+}
+
+.terror-table th {
+  background-color: rgb(23, 44, 66);
+}
+
+.terror-table tr {
+  background-color: rgb(23, 44, 66);
+}
+
+.p {
+  background: linear-gradient(135deg, #1f3a5a 60%, #0f1e2b 100%);
+  color: #fff;
+  text-align: left;
+  margin: 12px 10px;
+  padding: 18px 26px;
+  border-radius: 16px;
+  border: 2px solid #3a6ea5;
+  box-shadow: 0 4px 16px rgba(31, 58, 90, 0.15);
+  font-size: 1.1rem;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.p:hover {
+  border-color: #00d4ff;
+  box-shadow: 0 8px 24px rgba(0, 212, 255, 0.18);
+}
+
+.afterlogin {
+  background-color: rgb(23, 44, 66);
+  background-image: url('./afterlogin.jpg');
+}
+
+.afterlogin-container {
+  min-height: 100vh;
+  background-color: rgb(23, 44, 66);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  color: white;
+}
+
+.afterlogin-title {
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.afterlogin-list {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 20px 30px;
+  list-style: none;
+  font-size: 22px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+}
+
+.afterlogin-list li {
+  margin-bottom: 15px;
+}
+
+.afterlogin-link {
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+}
+
+.afterlogin-link:hover {
+  text-decoration: underline;
+  color: #b0d6ff;
+}
+
+.afterlogin-outlet {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.medicalhelp-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, rgb(23, 44, 66), rgb(34, 66, 99));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.medicalhelp-form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 500px;
+}
+
+.medicalhelp-title {
+  text-align: center;
+  color: rgb(23, 44, 66);
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.medicalhelp-field {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.home-container {
+  background-color: rgb(23, 44, 66);
+  margin: 0;
+  color: white;
+  background-image: url('./homebg3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-heading {
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.home-description {
+  text-align: center;
+  padding: 50px 20px 0 20px;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(23, 44, 66);
+  margin: 0;
+  padding: 40px 0;
+}
+
+
+.medicalhelp-label {
+  color: rgb(23, 44, 66);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.medicalhelp-input, .medicalhelp-file, .medicalhelp-input:focus {
+  padding: 10px 12px;
+  border: 2px solid rgb(23, 44, 66);
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+  background-color: white;
+  transition: border-color 0.3s;
+}
+
+.medicalhelp-input:focus, .medicalhelp-file:focus {
+  border-color: rgb(34, 66, 99);
+}
+
+.medicalhelp-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: rgb(23, 44, 66);
+  color: rgb(11, 7, 7);
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.medicalhelp-submit:hover {
+  background-color: rgb(34, 66, 99);
+}
+
+.job-search-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.job-search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #357960;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.job-search-btn {
+  padding: 10px 16px;
+  background-color: #1a4033;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.job-search-btn:hover {
+  background-color: #357960;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #0f1e2b;
+  background-image: url('./loginbg2.jpg');
+}
+
+.login-form {
+  background: rgba(23, 44, 66, 0.95);
+  box-shadow: 0 8px 32px 0 rgba(31, 64, 104, 0.37);
+  border-radius: 16px;
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  font-size: 16px;
+  gap: 18px;
+}
+
+.login-title {
+  color: #e43f5a;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.login-label {
+  color: #eaeaea;
+  font-weight: bold;
+}
+
+.login-input {
+  margin-bottom: 6px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #1f4068;
+  background: #232b3e;
+  color: #fff;
+  outline: none;
+}
+
+.login-button {
+  padding: 12px;
+  background: linear-gradient(90deg, #e43f5a, #162447);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.login-message {
+  color: #e43f5a;
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 0 0 0;
+  min-height: 20px;
+}
+.medals-container {
+  background-color: #0f1e2b;
+  padding: 40px 20px;
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.medals-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #00c8ff;
+}
+
+.medals-description {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #ccc;
+}
+
+.heroes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.hero-card {
+  background-color: #1f3a5a;
+  padding: 16px;
+  border-radius: 14px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+}
+
+.hero-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 212, 255, 0.25);
+}
+
+.hero-photo,
+.medal-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.hero-card h3 {
+  font-size: 1.05rem;
+  margin: 8px 0 0;
+  color: #ffffff;
+}
+
+.hero-card h3 span {
+  display: block;
+  font-size: 0.9rem;
+  color: #aad4ff;
+  margin-top: 4px;
+}
