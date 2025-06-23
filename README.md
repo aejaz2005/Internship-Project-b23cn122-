@@ -1,7 +1,7 @@
-Internship_Project ----- front end
-projectserver ---- Backend
-project---- mysql database
-Public ---- Images
+Internship_Project ----- front end,
+projectserver ---- Backend,
+project---- mysql database,
+Public ---- Images,
 App.js --- file to run
 
 
